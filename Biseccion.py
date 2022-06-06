@@ -1,7 +1,10 @@
+from pickle import TRUE
+import string
 from matplotlib import pyplot as pyp
+from numpy import true_divide
 
 #Lectura de variables
-input ("Ingrese los terminos solicitados.\nPara el término independiente escriba 0 en el exponente")
+print ("Ingrese los terminos solicitados.\nPara el término independiente escriba 0 en el exponente")
 t1 = float (input ("Primer término: "))
 t2 = float (input ("Segundo término: "))
 t3 = float (input ("Tercer término: "))

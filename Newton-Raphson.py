@@ -8,8 +8,7 @@ def df(x, et1, et2, et3, ec1, ec2, ec3):
   return et1* x ** ec1 + et2 * x **ec2 + et3 * x ** ec3
 
 def newtonrap(f,df,limite=50):
-  input ("Ingrese los terminos solicitados")
-  input ("Para el término independiente escriba 0 en el exponente")
+  print ("Ingrese los terminos solicitados.\nPara el término independiente escriba 0 en el exponente")
   t1 = float (input ("Primer término de la funcion: "))
   t2 = float (input ("Segundo término de la funcion: "))
   t3 = float (input ("Tercer término de la funcion: "))
