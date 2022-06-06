@@ -1,4 +1,4 @@
-import numpy as np
+
 from matplotlib import pyplot as pyp
 
 input ("Ingrese los terminos solicitados.\nPara el término independiente escriba 0 en el exponente")
