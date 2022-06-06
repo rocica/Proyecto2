@@ -1,7 +1,4 @@
-from pickle import TRUE
-import string
 from matplotlib import pyplot as pyp
-from numpy import true_divide
 
 #Lectura de variables
 print ("Ingrese los terminos solicitados.\nPara el término independiente escriba 0 en el exponente")
@@ -11,6 +8,7 @@ t3 = float (input ("Tercer término: "))
 c1 = float (input ("Primer exponente: "))
 c2 = float (input ("Segundo exponente: "))
 c3 = float (input ("Tercer exponente: "))
+
 emax = float (input("Ingrese el error tolerable: "))
 
 #Función de la ecuación original
